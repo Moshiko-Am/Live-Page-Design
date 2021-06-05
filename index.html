@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogin Page</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="main-screen" onclick="toggleMenu()"></div>
+    <div class="modal-screen off"></div>
+    <div class="modal close">
+        <h2 class="modal-header"> Join us to get access to the latest stories!</h2>
+        <p class="modal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque expedita officiis
+            vel, exercitationem accusantium blanditiis iste dolore dolor iure repellat.</p>
+        <input type="email" name="email" placeholder="Enter your email here">
+        <div class="modal-btns">
+            <button class="modal-submit">Submit</button>
+            <button class="modal-close" onclick="onModal()">Close</button>
+        </div>
+    </div>
+    <header class="main-header">
+        <div class="header-container main-layout flex space-between align-center">
+            <div class="logo">Blogin<span class="logo-dot">.</span></div>
+            <div class="nav-links">
+                <ul class="main-nav clean-list flex align-center">
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button class="btn-menu" onclick="toggleMenu()">☰</button>
+                <div class="menu-close hide" onclick="toggleMenu()">X</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content main-layout">
+        <div class="card flex">
+            <img src="img/001.png" class="card-image">
+            <div class="card-content flex flex-column align-start">
+                <h2 class="card-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, natus ullam. Cumque
+                    labore
+                    laudantium rerum sint molestias excepturi voluptate sunt!</p>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, consequatur.</p>
+                <button class="btn-card" onclick="onModal()">Continue Reading</button>
+            </div>
+
+        </div>
+        <div class="card flex">
+            <img src="img/002.png" class="card-image">
+            <div class="card-content flex flex-column align-start">
+                <h2 class="card-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, natus ullam. Cumque
+                    labore
+                    laudantium rerum sint molestias excepturi voluptate sunt!</p>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, consequatur.</p>
+                <button class="btn-card" onclick="onModal()">Continue Reading</button>
+            </div>
+        </div>
+        <div class="card flex">
+            <img src="img/003.png" class="card-image">
+            <div class="card-content flex flex-column align-start">
+                <h2 class="card-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, natus ullam. Cumque
+                    labore
+                    laudantium rerum sint molestias excepturi voluptate sunt!</p>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, consequatur.</p>
+                <button class="btn-card" onclick="onModal()">Continue Reading</button>
+            </div>
+        </div>
+
+    </main>
+    <section class="page-shift">
+        <div class="nav-shift main-layout flex space-between">
+            <button class="btn-shift">⬅ Previous</button>
+            <button class="btn-shift">Next ➡</button>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="logo">Blogin<span class="logo-dot">.</span></div>
+        <p class="footer-text">© 2014 Blogin.com - All Rights Reserved - Find more free Templates at <span
+                class="footer-bold">Pixelhint.com</span></p>
+        <div class="social-links">
+            <button class="btn-social btn-facebook"><img class="social-image" src="img/facebook.png"></button>
+            <button class="btn-social btn-twitter"><img class="social-image" src="img/twitter.png"></button>
+            <button class="btn-social btn-pinterest"><img class="social-image" src="img/pinterest.png"></button>
+            <button class="btn-social btn-instagram"><img class="social-image" src="img/instagram.png"></button>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
