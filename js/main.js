@@ -11,5 +11,5 @@ function onModal() {
   var elModal = document.querySelector('.modal');
   var elScreen = document.querySelector('.modal-screen');
   elModal.classList.toggle('close');
-  elScreen.classList.toggle('off');
+  elScreen.classList.toggle('modal-off');
 }
