@@ -432,9 +432,14 @@ input[name='email'] {
     border: none;
   }
 
-  .main-header .main-nav a {
+  .main-nav a {
     transition: all.3s;
   }
+
+  .main-nav li {
+    width: 100%;
+  }
+
   .main-header .main-nav li:hover {
     border-bottom: none;
   }
